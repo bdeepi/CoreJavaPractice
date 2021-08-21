@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This programs finds whether the given number is positive or negative
+ * @author Deepika
+ *
+ */
 
 public class PositiveNegative {
 

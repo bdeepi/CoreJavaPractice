@@ -1,6 +1,12 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * Happy -> A happy number is nothing but the sum of the squares of its digits should eventually equal to 1
+ * This program finds out whether the given number is happy or not
+ * @author Deepika
+ *
+ */
 
 public class Happy {
 	public static void main(String args[]) {

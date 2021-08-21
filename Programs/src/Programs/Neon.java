@@ -1,5 +1,9 @@
 package Programs;
 import java.util.Scanner;
+/**
+ * Neon Number -> A neon number is a number where the sum of digits of square of the number is equal to the number.
+ * This program finds out whether the given number is neon or not
+ */
 
 public class Neon {
 

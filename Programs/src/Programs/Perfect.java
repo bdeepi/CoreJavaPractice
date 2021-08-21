@@ -1,5 +1,11 @@
 package Programs;
 import java.util.Scanner;
+/**
+ * Perfect number -> Perfect number, a positive integer that is equal to the sum of its proper divisors.
+ * This program finds whether the given is perfect or not 
+ * @author Deepika
+ *
+ */
 
 public class Perfect {
 

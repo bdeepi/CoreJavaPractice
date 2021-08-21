@@ -1,6 +1,11 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This programs finds whether the given number is positive or negative
+ * @author admin
+ *
+ */
 
 public class Positive {
 	
@@ -17,6 +22,11 @@ public class Positive {
 		//boolean isgreater = positive(x , y);
 
 	}
+	/**
+	 * This method finds whether the given number  is positive or negative
+	 * @param n ->Integer number
+	 * @return true / false -> (true) if positive, else (false)
+	 */
 	public static boolean positive(int n) {
 		if(n > 0) {
 			return true;

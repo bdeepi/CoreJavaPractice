@@ -1,4 +1,9 @@
 package strings;
+/**
+ * This Program finds the count of vowels and consonants in the given String
+ * @author Deepika
+ *
+ */
 
 public class FindnVC {
 

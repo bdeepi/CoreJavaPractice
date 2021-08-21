@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program performs the swapping of two numbers without using a temporary variable
+ * @author admin
+ *
+ */
 
 public class Swapping {
 

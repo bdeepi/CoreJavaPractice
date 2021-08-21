@@ -1,5 +1,11 @@
 package basicPrograms;
-import java. util.Scanner; 
+import java. util.Scanner;
+/**
+ * Perfect number -> Perfect number, a positive integer that is equal to the sum of its proper divisors.
+ * This program finds whether the given is perfect or not 
+ * @author Deepika
+ *
+ */
 public class Perfect {
 
 	public static void main(String[] args) {
@@ -13,6 +19,11 @@ public class Perfect {
 		}
 
 	}
+	/**
+	 * This method performs the operation to find the given number is perfect or not
+	 * @param n -> An integer number
+	 * @return true / false -> (true) if perfect, else (false) 
+	 */
 
 	public static boolean perfect(int n) {
 		int sum = 0;

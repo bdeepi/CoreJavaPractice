@@ -1,4 +1,9 @@
 package strings;
+/**
+ * This program finds whether the given string is palindrome or not
+ * @author Deepika
+ *
+ */
 
 public class Palindrome {
 

@@ -1,6 +1,11 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This programs finds out whether the given number is even or odd
+ * @author Deepika
+ *
+ */
 
 public class EvenOdd {
 
@@ -18,6 +23,11 @@ public class EvenOdd {
 	
 
 	}
+	/**
+	 * This method finds out whether the given number is even or odd
+	 * @param n -> An integer number
+	 * @return true / false -> if even (true) else (false) 
+	 */
 	public static boolean evenOrOdd(int n) {
 		if(n % 2 == 0){
 			return true;

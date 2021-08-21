@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program performs the different arithmetic operations
+ * @author deepika
+ *
+ */
 
 public class Arthop {
 	public static void main(String[] args) {

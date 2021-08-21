@@ -1,6 +1,11 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This program finds out whether the given is Leap year or not
+ * @author admin
+ *
+ */
 
 public class Leap {
 
@@ -15,6 +20,11 @@ public class Leap {
 		}
 
 	}
+	/**
+	 * This method performs the operation for leap year
+	 * @param n -> An integer number
+	 * @return true / false -> (true)if leap year else(false)
+	 */
 
 	public static boolean LeapYr(int n) {
 		if (n % 4 == 0) {

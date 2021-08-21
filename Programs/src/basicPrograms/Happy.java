@@ -1,6 +1,12 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * Happy -> A happy number is nothing but the sum of the squares of its digits should eventually equal to 1
+ * This program finds out whether the given number is happy or not
+ * @author Deepika
+ *
+ */
 
 public class Happy {
 
@@ -10,6 +16,11 @@ public class Happy {
 		int ishappy = happy(n);
 		System.out.println(ishappy);
 	}
+	/**
+	 * This method finds out whether the given number is happy or not
+	 * @param n -> An integer number
+	 * @return n -> the result the of the given number which is an integer
+	 */
 		public static int happy(int n) {
 		int rem;
 		while (n > 9) {

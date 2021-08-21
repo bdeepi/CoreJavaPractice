@@ -1,4 +1,9 @@
 package strings;
+/**
+ * This program finds out the capital and small letters in the given String
+ * @author Deepika
+ *
+ */
 
 public class FNSC {
 

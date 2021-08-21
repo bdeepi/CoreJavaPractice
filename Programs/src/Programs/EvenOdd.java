@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This programs finds out whether the given number is even or odd
+ * @author Deepika
+ *
+ */
 
 public class EvenOdd {
 

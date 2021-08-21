@@ -1,6 +1,13 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * Automorphic -> A number is called an Automorphic number if and only if the
+ * square of the given number ends with the same number itself
+ * This program find outs whether the given number is Automorphic or not
+ * @author Deepika
+ * 
+ */
 
 public class Automorphic {
 

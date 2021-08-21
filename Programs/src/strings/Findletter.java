@@ -1,4 +1,9 @@
 package strings;
+/**
+ * This program finds whether the given letter is present in the String or not
+ * @author Deepika
+ *
+ */
 
 public class Findletter {
 

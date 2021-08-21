@@ -1,4 +1,9 @@
 package strings;
+/**
+ * This program finds the integers, capital letters etc in a given String
+ * @author admin
+ *
+ */
 
 public class Find {
 

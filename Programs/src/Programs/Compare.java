@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program finds the greater number 
+ * @author admin
+ *
+ */
 
 public class Compare {
 

@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program finds the reverse of a given number
+ * @author Deepika
+ *
+ */
 
 public class Reverse {
 

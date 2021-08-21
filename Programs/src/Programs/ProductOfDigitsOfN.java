@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program performs product of the digits of the given number
+ * @author deepika
+ *
+ */
 
 public class ProductOfDigitsOfN {
 

@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program performs product of sq  the digits of the given number
+ * @author Deepika
+ *
+ */
 
 public class ProductOfSqOfD {
 

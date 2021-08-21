@@ -1,4 +1,9 @@
 package basicPrograms;
+/**
+ * This program is sample for the methods 
+ * @author admin
+ *
+ */
 
 public class Sample {
 
@@ -7,6 +12,7 @@ public class Sample {
 		sample1();
 		sample2();
 	}
+	
 
 	public static void sample() {
 		System.out.println("method name");

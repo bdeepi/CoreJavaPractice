@@ -1,6 +1,9 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program finds the least number
+ */
 
 public class Least {
 	public static void main(String[] args) {

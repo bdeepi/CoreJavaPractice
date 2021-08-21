@@ -1,5 +1,10 @@
 package strings;
-
+/**
+ * This program finds the reverse of a given String
+ * 
+ * @author Deepika
+ *
+ */
 public class Reverse {
 
 	public static void main(String[] args) {

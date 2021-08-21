@@ -1,6 +1,11 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This program finds out whether the given number is a palaindrome or not
+ * @author admin
+ *
+ */
 
 public class Palindrome {
 
@@ -15,6 +20,11 @@ public class Palindrome {
 		}
 
 	}
+	/**
+	 * This method finds the palindrome of the number
+	 * @param n ->An integer number
+	 * @return true / false -> (true)if palindrome else (false)
+	 */
 
 	public static boolean palindrome(int n) {
 		int rem = 0, rev = 0, temp = n;

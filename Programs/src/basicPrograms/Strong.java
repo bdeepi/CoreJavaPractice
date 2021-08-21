@@ -1,6 +1,12 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * Strong number -> A strong number is a number whose sum of the factorial of each digit is equal to that number
+ * This program finds whether the given number is strong or not
+ * @author Deepika
+ *
+ */
 
 public class Strong {
 
@@ -15,6 +21,11 @@ public class Strong {
 		}
 
 	}
+	/**
+	 * This method finds whether the given number is strong or not
+	 * @param n -> An integer number
+	 * @return true / false -> (true) if strong, else (false)
+	 */
 
 	public static boolean strong(int n) {
 		int rem, sum = 0, temp = n;

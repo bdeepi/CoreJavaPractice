@@ -1,5 +1,10 @@
 package Programs;
 import java.util.Scanner;
+/**
+ * This program finds out whether the given is Leap year or not
+ * @author Deepika
+ *
+ */
 
 public class Leap {
 

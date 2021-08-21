@@ -2,6 +2,14 @@ package basicPrograms;
 
 import java.util.Scanner;
 
+/**
+ * Armstrong number -> Armstrong number is a number that is equal to the sum of
+ * cubes of its digits. 
+ * This program finds out whether the given number is Armstrong or not
+ * @author Deepika
+ * 
+ */
+
 public class Armstrong {
 
 	public static void main(String[] args) {
@@ -15,6 +23,13 @@ public class Armstrong {
 		}
 
 	}
+
+	/**
+	 * This method finds out whether the given number is Armstrong or not
+	 * 
+	 * @param n -> An integer number
+	 * @return true / false -> if Armstrong (true) else (false)
+	 */
 
 	public static boolean armstrong(int n) {
 		int rem = 0, r = 0, temp = n;

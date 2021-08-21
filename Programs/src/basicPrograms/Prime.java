@@ -1,6 +1,11 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This program finds whether the given number is prime or not
+ * @author Deepika
+ *
+ */
 
 public class Prime {
 
@@ -15,6 +20,11 @@ public class Prime {
 		}
 
 	}
+	/**
+	 * This method finds whether the given number is prime or not
+	 * @param n -> An integer number
+	 * @return true / false -> (true) if prime, else (false)
+	 */
 
 	public static boolean prime(int n) {
 		int flag = 0;

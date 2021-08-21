@@ -1,6 +1,14 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * Armstrong number -> Armstrong number is a number that is equal to the sum of
+ * cubes of its digits. 
+ * This program finds out whether the given number is Armstrong or not
+ * @author Deepika
+ * @author admin
+ *
+ */
 
 public class Armstrong {
 

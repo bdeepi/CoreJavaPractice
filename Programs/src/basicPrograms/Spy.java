@@ -1,6 +1,12 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * Spy Number -> A spy number is a number where the sum of its digits equals the product of its digits.
+ * This program finds out whether the given number is spy or not 
+ * @author Deepika
+ *
+ */
 
 public class Spy {
 	public static void main(String args[]) {
@@ -17,6 +23,11 @@ public class Spy {
 		}
 
 	}
+	/**
+	 * This method finds out whether the given number is spy or not 
+	 * @param n -> An integer number
+	 * @return true / false -> (true) if spy, else (false)
+	 */
 
 	public static boolean spy(int n) {
 

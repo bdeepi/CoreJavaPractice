@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program finds whether the given number is prime or not
+ * @author Deepika
+ *
+ */
 
 public class Prime {
 

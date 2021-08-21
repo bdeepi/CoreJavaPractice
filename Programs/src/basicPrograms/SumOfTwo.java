@@ -1,6 +1,12 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This program is the example for method overloading, it performs the addition of the given numbers
+ * Method overloading -> Same methods in the same class with different signature/parameters , may be the number of parameters or different data types of the parameters
+ * @author admin
+ *
+ */
 
 //method overloading
 public class SumOfTwo {
@@ -16,6 +22,12 @@ public class SumOfTwo {
 		System.out.println("Addition of three numbers " + sumofthree);
 
 	}
+	/**
+	 * This method performs the addition of two numbers
+	 * @param x
+	 * @param y
+	 * @return addition of two numbers
+	 */
 
 	public static int AddOfTwo(int x, int y) {
 		int z;
@@ -23,7 +35,13 @@ public class SumOfTwo {
 		return z;
 
 	}
-
+	/**
+	 * This method performs the addition of three numbers
+	 * @param x
+	 * @param y
+	 * @param z
+	 * @return sum of the 3 numbers
+	 */
 	public static int AddOfTwo(int x, int y, int z) {
 		int s;
 		s = x + y + z;

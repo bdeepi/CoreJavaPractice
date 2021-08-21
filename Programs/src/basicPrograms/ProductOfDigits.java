@@ -1,6 +1,11 @@
 package basicPrograms;
 
 import java.util.Scanner;
+/**
+ * This programs performs the various operations like  prod of digits, prod of sqs of digits, sum of digits, sum of sq of digits  for the given number
+ * @author Deepika
+ *
+ */
 
 public class ProductOfDigits {
 
@@ -17,6 +22,11 @@ public class ProductOfDigits {
 		System.out.println("sum of sq of  digits " + sqsumof);
 
 	}
+	/**
+	 * This method performs the product of digits of the given number
+	 * @param n ->An integer number
+	 * @return prod -> prod of the digits of the given number
+	 */
 
 	public static int product(int n) {
 		int rem, prod = 1;
@@ -29,6 +39,11 @@ public class ProductOfDigits {
 		return prod;
 
 	}
+	/**
+	 * This method performs the product of sq of  digits of the given number
+	 * @param n -> An integer number
+	 * @return prod -> prod of the sq of digits of the given number
+	 */
 	public static int sqprod(int n) {
 		int rem, prod = 1;
 		while (n > 0) {
@@ -40,6 +55,11 @@ public class ProductOfDigits {
 		return prod;
 
 	}
+	/**
+	 * This method performs the sum of digits of the given number
+	 * @param n -> An integer number
+	 * @return sum -> sum of the digits of the given number
+	 */
 
 	public static int sum(int n) {
 		int rem, sum = 0;
@@ -51,6 +71,11 @@ public class ProductOfDigits {
 		}
 		return sum;
 	}
+	/**
+	 * This method performs the sum of sqs of digits of the given number
+	 * @param n -> An integer number
+	 * @return sum -> sum of the digits of sq of the given number
+	 */
 	public static int sqsum(int n) {
 		int rem, sum = 0;
 		while (n > 0) {

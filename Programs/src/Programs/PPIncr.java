@@ -1,6 +1,11 @@
 package Programs;
 
 import java.util.Scanner;
+/**
+ * This program performs the increment and decrement operations
+ * @author deepika
+ *
+ */
 
 public class PPIncr {
 	public static void main(String[] args) {
