@@ -12,12 +12,13 @@ import java.util.Scanner;
 public class SumOfTwo {
 
 	public static void main(String[] args) {
+		SumOfTwo sot = new SumOfTwo();
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		int addtwo = AddOfTwo(a, b);
-		int sumofthree = AddOfTwo(a, b, c);
+		int addtwo = sot.AddOfTwo(a, b);
+		int sumofthree = sot.AddOfTwo(a, b, c);
 		System.out.println("Addition of two numbers " + addtwo);
 		System.out.println("Addition of three numbers " + sumofthree);
 
@@ -29,7 +30,7 @@ public class SumOfTwo {
 	 * @return addition of two numbers
 	 */
 
-	public static int AddOfTwo(int x, int y) {
+	public  int AddOfTwo(int x, int y) {
 		int z;
 		z = x + y;
 		return z;
@@ -42,7 +43,7 @@ public class SumOfTwo {
 	 * @param z
 	 * @return sum of the 3 numbers
 	 */
-	public static int AddOfTwo(int x, int y, int z) {
+	public  int AddOfTwo(int x, int y, int z) {
 		int s;
 		s = x + y + z;
 		return s;

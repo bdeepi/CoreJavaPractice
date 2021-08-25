@@ -11,9 +11,10 @@ import java.util.Scanner;
 public class Happy {
 
 	public static void main(String[] args) {
+		Happy h = new Happy();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int ishappy = happy(n);
+		int ishappy = h.happy(n);
 		System.out.println(ishappy);
 	}
 	/**
@@ -21,7 +22,7 @@ public class Happy {
 	 * @param n -> An integer number
 	 * @return n -> the result the of the given number which is an integer
 	 */
-		public static int happy(int n) {
+		public  int happy(int n) {
 		int rem;
 		while (n > 9) {
 			int s = 0;

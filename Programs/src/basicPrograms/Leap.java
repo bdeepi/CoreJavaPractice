@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class Leap {
 
 	public static void main(String[] args) {
+		Leap l = new Leap();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isleapyr = LeapYr(n);
+		boolean isleapyr =l.LeapYr(n);
 		if (isleapyr) {
 			System.out.println("The given year is a Leap year");
 		} else {
@@ -26,7 +27,7 @@ public class Leap {
 	 * @return true / false -> (true)if leap year else(false)
 	 */
 
-	public static boolean LeapYr(int n) {
+	public  boolean LeapYr(int n) {
 		if (n % 4 == 0) {
 			return true;
 		} else {

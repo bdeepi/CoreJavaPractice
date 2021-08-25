@@ -1,4 +1,11 @@
 package patternMethods;
+/*
+          * 
+       *  * 
+    *  *  * 
+ *  *  *  * 
+ 
+ */
 
 public class Tweleve {
 

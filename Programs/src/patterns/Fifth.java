@@ -1,4 +1,10 @@
 package patterns;
+/**
+ * 11
+ 21 22
+ 31 32 33
+ 41 42 43 44
+ */
 
 import java.util.Scanner;
 

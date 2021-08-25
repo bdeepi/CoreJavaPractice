@@ -1,6 +1,12 @@
 package patternMethods;
 
 import java.util.Scanner;
+/*
+ *  *  *  * 
+    *  *  * 
+       *  * 
+          *
+ */
 
 public class Eight {
 

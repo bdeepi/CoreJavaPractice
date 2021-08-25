@@ -1,6 +1,12 @@
 package patternMethods;
 
 import java.util.Scanner;
+/*
+ 11
+ 21 22
+ 31 32 33
+ 41 42 43 44
+ */
 
 public class Six {
 

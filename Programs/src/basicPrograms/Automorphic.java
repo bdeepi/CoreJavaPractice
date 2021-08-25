@@ -12,9 +12,10 @@ import java.util.Scanner;
 public class Automorphic {
 
 	public static void main(String[] args) {
+		Automorphic obj = new Automorphic();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isautomorphic = automorphic(n);
+		boolean isautomorphic = obj.automorphic(n);
 		if (isautomorphic) {
 			System.out.println("given number is automporphic");
 		} else {
@@ -28,7 +29,7 @@ public class Automorphic {
 	 * @param n - An integer number    
 	 * @return true/false -> if automorphic(true) else (false)
 	 */
-	public static boolean automorphic(int n) {
+	public  boolean automorphic(int n) {
 		int rem = 0, temp = n;
 		n = n * n;
 

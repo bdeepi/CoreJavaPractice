@@ -7,9 +7,8 @@ package basicPrograms;
 public class Add {
 
 	public static void main(String[] args) {
-		 
-		int c = add(1, 2);
-		 
+		Add obj = new Add(); 
+		int c = obj.add(1, 2);
 		 System.out.print(c);	
 	}
 	/**
@@ -19,7 +18,7 @@ public class Add {
 	 * @param b - second number
 	 * @return addition of two numbers
 	 */
-	public static int add(int a, int b) {
+	public  int add(int a, int b) {
 		 return a + b; 
 	}
 

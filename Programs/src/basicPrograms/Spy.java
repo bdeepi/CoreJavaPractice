@@ -10,11 +10,12 @@ import java.util.Scanner;
 
 public class Spy {
 	public static void main(String args[]) {
+		Spy sp = new Spy();
 
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 
-		boolean isspy = spy(n);
+		boolean isspy = sp.spy(n);
 
 		if (isspy) {
 			System.out.println("Spy number");
@@ -29,7 +30,7 @@ public class Spy {
 	 * @return true / false -> (true) if spy, else (false)
 	 */
 
-	public static boolean spy(int n) {
+	public  boolean spy(int n) {
 
 		int rem;
 		int sum = 0;

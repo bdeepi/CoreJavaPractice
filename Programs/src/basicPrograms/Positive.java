@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class Positive {
 	
 	public static void main(String[] args) {
+		Positive p = new Positive();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean ispositive = positive(n);
+		boolean ispositive = p.positive(n);
 		if(ispositive) {
 			System.out.println("is positive");	
 		} else {
@@ -27,7 +28,7 @@ public class Positive {
 	 * @param n ->Integer number
 	 * @return true / false -> (true) if positive, else (false)
 	 */
-	public static boolean positive(int n) {
+	public  boolean positive(int n) {
 		if(n > 0) {
 			return true;
 		}

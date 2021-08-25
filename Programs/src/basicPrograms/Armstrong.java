@@ -13,9 +13,10 @@ import java.util.Scanner;
 public class Armstrong {
 
 	public static void main(String[] args) {
+		Armstrong obj = new Armstrong();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isarmstrong = armstrong(n);
+		boolean isarmstrong = obj.armstrong(n);
 		if (isarmstrong) {
 			System.out.println("The given number is a Armstrong");
 		} else {
@@ -31,7 +32,7 @@ public class Armstrong {
 	 * @return true / false -> if Armstrong (true) else (false)
 	 */
 
-	public static boolean armstrong(int n) {
+	public  boolean armstrong(int n) {
 		int rem = 0, r = 0, temp = n;
 		while (n > 0) {
 			rem = n % 10;

@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class ReverseOfNumber {
 
 	public static void main(String[] args) {
+		ReverseOfNumber rev = new ReverseOfNumber();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int reverseis = reverse(n);
+		int reverseis = rev.reverse(n);
 		System.out.println("Reverse of given number is :" + reverseis);
 
 	}
@@ -22,7 +23,7 @@ public class ReverseOfNumber {
 	 * @return reverse of the given number
 	 */
 
-	public static int reverse(int n) {
+	public  int reverse(int n) {
 		int rem = 0, rev = 0;
 		while (n > 0) {
 			rem = n % 10;

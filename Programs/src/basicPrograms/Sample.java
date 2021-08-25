@@ -8,22 +8,23 @@ package basicPrograms;
 public class Sample {
 
 	public static void main(String[] args) {
-		sample();
-		sample1();
-		sample2();
+		Sample s = new Sample();
+		s.sample();
+		s.sample1();
+		s.sample2();
 	}
 	
 
-	public static void sample() {
+	public  void sample() {
+		System.out.println("Return type");
+	}
+
+	public  void sample1() {
 		System.out.println("method name");
 	}
 
-	public static void sample1() {
+	public  void sample2() {
 		System.out.println("Signature");
-	}
-
-	public static void sample2() {
-		System.out.println("Return type");
 	}
 
 }

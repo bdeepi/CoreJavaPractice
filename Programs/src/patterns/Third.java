@@ -1,6 +1,13 @@
 package patterns;
 
 import java.util.Scanner;
+/*
+ 1  2  3  4 
+ 1  2  3  4 
+ 1  2  3  4 
+ 1  2  3  4 
+
+ */
 
 public class Third {
 

@@ -9,9 +9,10 @@ import java.util.Scanner;
 public class Neon {
 
 	public static void main(String[] args) {
+		Neon ne = new Neon();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isneon = neon(n);
+		boolean isneon = ne.neon(n);
 		if(isneon) {
 			System.out.println("The given number is neon");
 		}else {
@@ -24,7 +25,7 @@ public class Neon {
 	 * @param n -> An integer number
 	 * @return true / false -> (true) if neon else (false)
 	 */
-	public static boolean neon(int n) {
+	public  boolean neon(int n) {
 		int temp = n;
 		n = n * n;
 		int rem = 0, r = 0;

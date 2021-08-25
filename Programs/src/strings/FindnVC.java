@@ -11,7 +11,7 @@ public class FindnVC {
 		int count = 0, count1 = 0;
 		String str = "Finding number of vowels and consonants";
 		for (int i = 0; i < str.length(); i++) {
-			char c = str.charAt(i);
+			//char c = str.charAt(i);
 			if ((str.charAt(i) == 'a') || (str.charAt(i) == 'e')
 					|| (str.charAt(i) == 'i') || (str.charAt(i) == 'o')
 					|| (str.charAt(i) == 'u') || (str.charAt(i) == 'A')

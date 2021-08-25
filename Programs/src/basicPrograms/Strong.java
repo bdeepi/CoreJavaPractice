@@ -11,9 +11,10 @@ import java.util.Scanner;
 public class Strong {
 
 	public static void main(String[] args) {
+		Strong st = new Strong();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isstrong = strong(n);
+		boolean isstrong = st.strong(n);
 		if(isstrong) {
 			System.out.println("strong number");
 		} else {
@@ -27,7 +28,7 @@ public class Strong {
 	 * @return true / false -> (true) if strong, else (false)
 	 */
 
-	public static boolean strong(int n) {
+	public  boolean strong(int n) {
 		int rem, sum = 0, temp = n;
 		while (n > 0) {
 			int fact = 1;

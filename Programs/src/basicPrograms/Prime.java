@@ -10,14 +10,17 @@ import java.util.Scanner;
 public class Prime {
 
 	public static void main(String[] args) {
+		Prime obj = new Prime();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isprime = prime(n);
+		boolean isprime = obj.prime(n);
 		if (isprime) {
 			System.out.println("It is a prime number");
 		} else {
 			System.out.println("not a prime number");
 		}
+		
+		
 
 	}
 	/**
@@ -26,7 +29,7 @@ public class Prime {
 	 * @return true / false -> (true) if prime, else (false)
 	 */
 
-	public static boolean prime(int n) {
+	public   boolean prime(int n) {
 		int flag = 0;
 		for (int i = 2; i < n; i++) {
 			if (n % i == 0) {

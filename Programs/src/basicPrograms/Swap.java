@@ -7,7 +7,8 @@ package basicPrograms;
 public class Swap {
 
 	public static void main(String[] args) {
-		swap(2 , 3);
+		Swap s = new Swap();
+		s.swap(2 , 3);
 		
 	}
 	/**
@@ -15,7 +16,7 @@ public class Swap {
 	 * @param a
 	 * @param b
 	 */
-	public static void swap(int a , int b ) {
+	public  void swap(int a , int b ) {
 		
 		int temp;
 		temp = a;

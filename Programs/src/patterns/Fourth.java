@@ -1,6 +1,12 @@
 package patterns;
 
 import java.util.Scanner;
+/*
+ 1
+22
+333
+4444
+ */
 
 public class Fourth {
 

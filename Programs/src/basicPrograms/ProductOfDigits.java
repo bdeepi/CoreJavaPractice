@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class ProductOfDigits {
 
 	public static void main(String[] args) {
+		ProductOfDigits pod = new ProductOfDigits();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int productof = product(n);
+		int productof = pod. product(n);
 		int sqprod = sqprod(n);
 		int sumof = sum(n);
 		int sqsumof = sqsum(n);
@@ -28,7 +29,7 @@ public class ProductOfDigits {
 	 * @return prod -> prod of the digits of the given number
 	 */
 
-	public static int product(int n) {
+	public  int product(int n) {
 		int rem, prod = 1;
 		while (n > 0) {
 			rem = n % 10;

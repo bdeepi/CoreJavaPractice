@@ -9,9 +9,10 @@ import java. util.Scanner;
 public class Perfect {
 
 	public static void main(String[] args) {
+		Perfect p = new Perfect();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		boolean isperfect = perfect(n);
+		boolean isperfect = p.perfect(n);
 		if (isperfect) {
 			System.out.println("perfect number");
 		} else {
@@ -25,7 +26,7 @@ public class Perfect {
 	 * @return true / false -> (true) if perfect, else (false) 
 	 */
 
-	public static boolean perfect(int n) {
+	public  boolean perfect(int n) {
 		int sum = 0;
 		for (int i = 1; i < n; i++) {
 			if (n % i == 0) {
