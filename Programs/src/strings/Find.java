@@ -1,4 +1,7 @@
 package strings;
+
+import java.util.Scanner;
+
 /**
  * This program finds the integers, capital letters etc in a given String
  * @author admin
@@ -8,8 +11,12 @@ package strings;
 public class Find {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter string");
+		String str = sc.next();
+		System.out.println(str);
 		char c;
-		String str = "Abc123$%";
+		//String str = "Abc123$%";
 		
 		for (int i = 0; i < str.length(); i++) {
 			c = str.charAt(i);

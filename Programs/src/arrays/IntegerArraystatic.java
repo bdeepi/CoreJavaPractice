@@ -1,8 +1,8 @@
 package arrays;
 
 /**
- * This program print the 
- * @author admin
+ * This program print the Integer array of elements statically
+ * @author Deepika
  *
  */
 public class IntegerArraystatic {

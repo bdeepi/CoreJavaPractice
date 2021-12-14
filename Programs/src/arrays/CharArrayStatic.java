@@ -1,4 +1,9 @@
 package arrays;
+/**
+ * This program print the Character array of elements statically
+ * @author admin
+ *
+ */
 
 public class CharArrayStatic {
 

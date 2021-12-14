@@ -1,4 +1,9 @@
 package arrays;
+/**
+ * This program print the String array of elements statically
+ * @author Deepika
+ *
+ */
 
 public class StringArrayStatic {
 
